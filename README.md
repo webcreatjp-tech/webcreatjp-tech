@@ -18,7 +18,7 @@ Je conçois des **systèmes d'automatisation intelligents** qui connectent l'IA 
 6 repos publics — agents IA, surveillance santé, automatisation industrielle, outils métier.
 
 ```python
-class WebCreatJP:
+class Jean-Philippe:
     role       = "Architecte d'automatisation IA"
     stack      = ["n8n", "Ollama", "Mistral AI", "Anthropic", "PostgreSQL", "Qdrant"]
     llms       = ["qwen2.5", "mistral-large", "claude-3"]
