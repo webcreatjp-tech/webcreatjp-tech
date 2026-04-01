@@ -1,113 +1,133 @@
 <div align="center">
 
-# 👋 Bonjour, je suis Jean-Philippe
-
-### Automatisation IA · Agents LLM · Workflows métier
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=webcreatjp-tech&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=🤖%20Automatisation%20IA%20·%20Agents%20LLM%20·%20Workflows%20n8n&descAlignY=55&descSize=18" width="100%"/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/web-creat/)
-[![n8n](https://img.shields.io/badge/n8n-FF6B6B?style=for-the-badge&logo=n8n&logoColor=white)](https://n8n.io)
+[![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)](https://n8n.io)
+[![Ollama](https://img.shields.io/badge/Ollama_Local-333333?style=for-the-badge&logoColor=white)](https://ollama.ai)
+[![Mistral](https://img.shields.io/badge/Mistral_AI-FF7000?style=for-the-badge&logoColor=white)](https://mistral.ai)
+
+<img src="https://komarev.com/ghpvc/?username=webcreatjp-tech&label=Profile%20views&color=EA4B71&style=flat" alt="profile views" />
 
 </div>
 
 ---
 
-## 🚀 Ce que je construis
+## 🧠 Ce que je construis
 
-Je conçois des **systèmes d'automatisation intelligents** combinant des workflows n8n, des agents IA multi-LLM et des intégrations métier concrètes. Mes projets couvrent la gestion d'entreprise, l'IA générative locale, la surveillance santé et la conformité réglementaire.
+Je conçois des **systèmes d'automatisation intelligents** qui connectent l'IA aux processus métier réels.  
+75+ workflows n8n en production — agents personnels, gestion industrielle, surveillance santé, création de contenu.
 
----
-
-## 🤖 Agents IA & Assistants
-
-| Projet | Description | Stack |
-|--------|------------|-------|
-| **Agent JP** | Assistant personnel sur Telegram avec mémoire contextuelle et routage dynamique | Telegram · Ollama (Qwen2.5) · n8n |
-| **OpenClaw** | Système multi-agents avec sous-agents spécialisés auto-générés | n8n · Ollama · RAG |
-| **Mail Agent** | Agent IA qui lit, rédige et répond aux emails via commandes Telegram | Mistral Large · Gmail API · n8n |
-| **Agent Orientation** | Conseiller de carrière IA interactif (chatbot web) | Mistral AI · n8n |
-| **English Coach** | Coach d'anglais IA avec mode shadowing audio | Mistral AI · n8n · HTML |
-| **Chatbot RAG Portails** | Chatbot documentaire avec ingestion PDF et recherche sémantique | Ollama · n8n · RAG |
-
----
-
-## 🏭 Automatisation Métier — *Mon Usine*
-
-Plateforme complète de gestion industrielle construite sur **n8n + PostgreSQL** :
-
-```
-📄 Import PDF → 🔍 Extraction IA (OCR + QR Code) → ✅ Validation → 📦 Stock → 📊 Dashboard
-```
-
-- **17 workflows** couvrant le cycle complet : factures, production, stock, comptabilité
-- Portail web avec authentification sécurisée (HTTP Basic Auth)
-- Notifications temps réel via Telegram
-- Migration complète **Airtable → PostgreSQL local** (zéro coût cloud)
-
----
-
-## 🏥 SeniorAssist — Plateforme de Surveillance Santé
-
-Système de supervision pour personnes âgées avec **13 workflows** :
-
-- Détection de chute via caméra (Frigate + RTSP)
-- Alertes Telegram en temps réel · Rapports journaliers/hebdomadaires
-- Portail web soignants · Gestion patients & événements
-- API REST complète (patients, rapports, événements)
-
----
-
-## 📱 LinkedIn Content Factory
-
-Pipeline automatisé de création de contenu :
-
-```
-🕷️ Scraping viral posts → 🤖 Génération IA → ✅ Approbation Telegram → 📤 Publication LinkedIn → 📈 Feedback 48h
+```python
+class WebCreatJP:
+    role       = "Architecte d'automatisation IA"
+    stack      = ["n8n", "Ollama", "Mistral AI", "Anthropic", "PostgreSQL"]
+    llms       = ["qwen2.5", "mistral-large", "claude-3", "groq/llama"]
+    philosophy = "Local-first • Production-ready • No-code meets AI"
+    
+    def current_focus(self):
+        return [
+            "🤖 Agents IA multi-LLM (local + cloud)",
+            "🏭 Automatisation processus industriels",
+            "🏥 Systèmes de surveillance intelligents",
+        ]
 ```
 
 ---
 
-## 🛡️ Conformité & Sécurité
+## 🚀 Projets phares
 
-- **ISO 27001 / NIS2** — Analyse automatisée des processus via ProcessMonitor
-- **DocLink Santé** — MVP telemedicine avec authentification OTP SMS
-- Système de surveillance caméra (Frigate) avec rapports nocturnes IA
+<table>
+<tr>
+<td width="50%">
+
+### 🏭 [Mon Usine](https://github.com/webcreatjp-tech/n8n-mon-usine)
+Plateforme industrielle complète  
+`PDF → OCR IA → Stock → Dashboard`  
+**17 workflows** · PostgreSQL · Ollama vision
+
+</td>
+<td width="50%">
+
+### 🏥 [SeniorAssist](https://github.com/webcreatjp-tech/n8n-senior-assist)
+Surveillance santé temps réel  
+`Caméra → Détection chute → Alerte Telegram`  
+**15 workflows** · Frigate · API REST
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🤖 [Agents IA](https://github.com/webcreatjp-tech/n8n-ai-agents)
+Assistant personnel + multi-agent  
+`Telegram → Router → Tools (Gmail, Cal, Web)`  
+**6 workflows** · Ollama · Mistral · Anthropic
+
+</td>
+<td width="50%">
+
+### 📱 [LinkedIn Factory](https://github.com/webcreatjp-tech/n8n-linkedin-factory)
+Pipeline contenu automatisé  
+`Scraping viral → IA → Approval → Post`  
+**3 workflows** · Apify · Google Sheets
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🛠️ Stack Technique
+## 🛠️ Stack technique
 
 <div align="center">
 
-### Orchestration & Automatisation
+**Orchestration**  
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-### IA & LLM
-![Anthropic](https://img.shields.io/badge/Anthropic_Claude-000000?style=flat-square&logoColor=white)
-![Mistral](https://img.shields.io/badge/Mistral_AI-FF7000?style=flat-square&logoColor=white)
+**IA & LLM**  
+![Anthropic](https://img.shields.io/badge/Claude_3-000000?style=flat-square&logoColor=white)
+![Mistral](https://img.shields.io/badge/Mistral_Large-FF7000?style=flat-square&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama_Local-333333?style=flat-square&logoColor=white)
 
-### Data & Intégrations
+**Data & Cloud**  
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white)
 ![Gmail](https://img.shields.io/badge/Gmail_API-EA4335?style=flat-square&logo=gmail&logoColor=white)
 ![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)
-![Airtable](https://img.shields.io/badge/Airtable-18BFFF?style=flat-square&logo=airtable&logoColor=white)
 
 </div>
 
 ---
 
-## 📊 Chiffres clés
+## 📊 Stats GitHub
 
 <div align="center">
 
-| 🔄 Workflows actifs | 🤖 LLMs intégrés | 🔗 Services connectés | 📋 Exécutions |
-|:-------------------:|:----------------:|:---------------------:|:-------------:|
-| **75+** | **4** | **12+** | **Milliers** |
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=webcreatjp-tech&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=webcreatjp-tech&layout=compact&langs_count=6&theme=radical&hide_border=true"/>
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=webcreatjp-tech&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## 🔢 Chiffres clés
+
+<div align="center">
+
+| 🔄 Workflows | 🤖 LLMs | 🔗 Services | 📋 Exécutions | 🏗️ Repos |
+|:---:|:---:|:---:|:---:|:---:|
+| **75+** | **4** | **12+** | **Milliers** | **5** |
 
 </div>
 
@@ -117,16 +137,17 @@ Pipeline automatisé de création de contenu :
 
 > *"L'automatisation intelligente, c'est libérer le temps humain pour ce qui compte vraiment."*
 
-- **Local-first** : priorité aux modèles IA en local (Ollama) pour la confidentialité des données
-- **Pragmatique** : des solutions qui fonctionnent en production, pas des POC
-- **Intégration** : relier les outils existants plutôt que tout reconstruire
+- **🏠 Local-first** — priorité à Ollama et l'hébergement local pour la confidentialité
+- **⚡ Production-ready** — des systèmes qui tournent 24/7, pas des démos
+- **🔗 Intégration** — connecter les outils existants intelligemment
 
 ---
 
 <div align="center">
 
-📬 **Me contacter** · [LinkedIn](https://www.linkedin.com/in/web-creat/)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
-*Disponible pour des projets d'automatisation IA, conseil n8n, et développement de workflows sur mesure.*
+📬 **Disponible pour des projets d'automatisation IA**  
+[![LinkedIn](https://img.shields.io/badge/Contactez_moi-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/web-creat/)
 
 </div>
