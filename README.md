@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Bonjour, je suis **webcreatjp-tech**
+# 👋 Bonjour, je suis Jean-Philippe
 
 ### Automatisation IA · Agents LLM · Workflows métier
 
