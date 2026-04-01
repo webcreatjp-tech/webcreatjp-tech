@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=webcreatjp-tech&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=🤖%20Automatisation%20IA%20·%20Agents%20LLM%20·%20Workflows%20n8n&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Jean-Philippe&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=🤖%20Automatisation%20IA%20·%20Agents%20LLM%20·%20Workflows%20n8n&descAlignY=55&descSize=18" width="100%"/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/web-creat/)
 [![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)](https://n8n.io)
 [![Ollama](https://img.shields.io/badge/Ollama_Local-333333?style=for-the-badge&logoColor=white)](https://ollama.ai)
 [![Mistral](https://img.shields.io/badge/Mistral_AI-FF7000?style=for-the-badge&logoColor=white)](https://mistral.ai)
 
-<img src="https://komarev.com/ghpvc/?username=Jean-Philippe&label=Profile%20views&color=EA4B71&style=flat" alt="profile views" />
+<img src="https://komarev.com/ghpvc/?username=webcreatjp-tech&label=Profile%20views&color=EA4B71&style=flat" alt="profile views" />
 
 </div>
 
