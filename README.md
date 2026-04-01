@@ -7,7 +7,7 @@
 [![Ollama](https://img.shields.io/badge/Ollama_Local-333333?style=for-the-badge&logoColor=white)](https://ollama.ai)
 [![Mistral](https://img.shields.io/badge/Mistral_AI-FF7000?style=for-the-badge&logoColor=white)](https://mistral.ai)
 
-<img src="https://komarev.com/ghpvc/?username=webcreatjp-tech&label=Profile%20views&color=EA4B71&style=flat" alt="profile views" />
+<img src="https://komarev.com/ghpvc/?username=Jean-Philippe&label=Profile%20views&color=EA4B71&style=flat" alt="profile views" />
 
 </div>
 
